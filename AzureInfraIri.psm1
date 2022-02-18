@@ -32,3 +32,4 @@ function New-IRIAzInfrastructureSeed {
     New-AzResourceGroup -name $rGName -location $location
     } 
    }
+   Export-ModuleMember -Function New-IRIAzInfrastructureSeed
