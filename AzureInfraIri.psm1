@@ -11,7 +11,7 @@
  Name of customer. 
  .Parameter amount 
  Amount of Resource Groups to deploy. 
- Get-Location to 
+ Get-Location to
  .Parameter location 
  Location where Resource Groups should be deployed. 
  Use: 
