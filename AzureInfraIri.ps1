@@ -29,6 +29,6 @@ function New-IRIAzInfrastructureSeed {
     ) 
     for ($index = 1; $index -le $amount; $index++) { 
     $rGName = "$customerName" + "$index"
-    New-AzResourceGroup -name $rGName -location $location -WhatIf
+    New-AzResourceGroup -name $rGName -location $location
     } 
    }
