@@ -3,7 +3,7 @@
  Creates basic infrastructure items for customers. 
  .Description 
  Creates defined amount of Resource Groups in desired locations. 
- Names are following scheme "CustomerNameIndex", eg. 
+ Names are following scheme "CustomerNameiteration", eg. 
  -IRI1 
  -IRI2 
  and so on. 
@@ -27,8 +27,8 @@ function New-IRIAzInfrastructureSeed {
     [int]$amount = "4",
     [string]$location = 'WestEurope'
     ) 
-    for ($index = 1; $index -le $amount; $index++) { 
-    $rGName = "$customerName" + "$index"
+    for ($iteration = 1; $iteration -le $amount; $iteration++) { 
+    $rGName = "$customerName" + "$iteration"
     New-AzResourceGroup -name $rGName -location $location
     } 
    }

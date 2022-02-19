@@ -9,7 +9,7 @@
     # Script module or binary module file associated with this manifest.
     RootModule = 'AzureInfraIri.psm1'
     # Version number of this module.
-    ModuleVersion = '0.1'
+    ModuleVersion = '0.2'
     # Supported PSEditions
     # CompatiblePSEditions = @()
     # ID used to uniquely identify this module
